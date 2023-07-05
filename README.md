@@ -106,3 +106,105 @@ int main() {
 
     return 0;
 }
+```  
+# LoginANDRegistrationSystem
+
+This program implements a simple login system with registration and password recovery functionalities. It allows users to create an account, log in with their credentials, and recover their password if forgotten. The program utilizes file handling to store and retrieve user information.
+
+How to Use:
+
+1. Upon running the program, a menu is displayed with the following options:
+
+        Press 1 to login
+
+        Press 2 to register
+
+        Press 3 if you forgot your password
+
+        Press 4 to exit
+
+2. To log in (option 1):
+
+        Enter your username and password when prompted.
+
+        The program will check if the entered credentials match any records in the userlogindata.txt file.
+
+        If a match is found, you will be logged in, and a success message will be displayed.
+
+        If no match is found, an error message will be displayed, and you will be returned to the main menu.
+
+3. To register a new account (option 2):
+
+        Enter a desired username and password when prompted.
+
+        Your credentials will be added to the userlogindata.txt file.
+
+        A success message will be displayed.
+
+4. To recover your password (option 3):
+
+      You have two options:
+
+        Enter 1 to search for your password by username.
+
+        Enter 2 to return to the main menu.
+  
+            If you choose to search by username:
+
+            Enter your username when prompted.
+
+            The program will search for your username in the userlogindata.txt file.
+
+            If your username is found, your password will be displayed.
+
+            If your username is not found, an error message will be displayed.
+
+        If you choose to return to the main menu, you will be taken back to the main menu.
+
+4. To exit the program (option 4):
+
+        Enter 4 to exit the program.
+
+        A thank you message will be displayed.
+
+File Structure
+
+    main() function:
+
+      Displays the menu and handles the user's choice.
+
+      Calls corresponding functions based on the user's input.
+
+    login() function:
+
+      Prompts the user to enter their username and password.
+      
+      Checks if the entered credentials match any records in the userlogindata.txt file.
+      
+      Displays login success or failure messages accordingly.
+
+    registration() function:
+
+      Prompts the user to enter a new username and password.
+
+      Appends the entered data to the userlogindata.txt file.
+
+      Displays a registration success message.
+
+    forgot() function:
+
+    Provides options for password recovery: search by username or go back to the main menu.
+
+    If searching by username:
+
+      Prompts the user to enter their username.
+
+      Searches for the username in the userlogindata.txt file.
+
+      Displays the corresponding password if the username is found.
+
+      Displays an error message if the username is not found.
+
+Data Storage
+
+    User account information, including usernames and passwords, is stored in a text file named userlogindata.txt. Each line in the file represents a user's credentials, with the username and password separated by a space.
