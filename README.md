@@ -107,7 +107,7 @@ int main() {
     return 0;
 }
 ```  
-# LoginANDRegistrationSystem
+# LoginANDRegistrationSystem - Project Documentation
 
 This program implements a simple login system with registration and password recovery functionalities. It allows users to create an account, log in with their credentials, and recover their password if forgotten. The program utilizes file handling to store and retrieve user information.
 
@@ -208,3 +208,52 @@ File Structure
 Data Storage
 
     User account information, including usernames and passwords, is stored in a text file named userlogindata.txt. Each line in the file represents a user's credentials, with the username and password separated by a space.
+
+# Calculator - Project Documentation
+
+This is a simple calculator web application built using HTML, CSS, and JavaScript. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+## Features
+
+- Clear button (AC): Resets the calculator, clearing all operands and operations.
+- Delete button (DEL): Removes the last entered digit or decimal point from the current operand.
+- Operation buttons: Select the desired arithmetic operation (+, -, *, /).
+- Number buttons: Input numbers (0-9) and decimal point (.) for operands.
+- Equals button (=): Computes the result of the entered arithmetic expression.
+- Output display: Shows the current and previous operands and the selected operation.
+
+## Getting Started
+
+To use the calculator application, follow these steps:
+
+1. Clone the repository or download the source code.
+2. Open the `index.html` file in a web browser.
+
+## Usage
+
+1. Click on the number buttons to input digits for the operands.
+2. Click on the decimal point button to input decimal numbers.
+3. Click on the operation buttons to select the desired arithmetic operation.
+4. Click on the equals button to compute the result.
+5. Click on the clear button (AC) to reset the calculator.
+6. Click on the delete button (DEL) to remove the last entered digit or decimal point.
+
+## Examples
+
+Here are a few examples of using the calculator:
+
+1. Addition:
+   - Input: 5 + 7
+   - Output: 12
+
+2. Subtraction:
+   - Input: 10 - 3
+   - Output: 7
+
+3. Multiplication:
+   - Input: 4 * 5
+   - Output: 20
+
+4. Division:
+   - Input: 12 / 3
+   - Output: 4
